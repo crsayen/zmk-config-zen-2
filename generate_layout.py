@@ -154,7 +154,7 @@ def parse_layer(name, bindings):
     return f"""
         {name} {{
             bindings = <
-            {parse_layer_bindingsrse_layer_bindings(bindings)}
+            {parse_layer_bindings(bindings)}
             >;
         }};"""
 
