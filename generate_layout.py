@@ -222,6 +222,6 @@ def get_layout():
 
 
 print("generating layout...")
-with open("./config/corne.keymap", "w") as f:
+with open("./config/corneish_zen.keymap", "w") as f:
     f.write(get_layout())
 print("finished!")
