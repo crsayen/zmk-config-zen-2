@@ -54,7 +54,7 @@
         
         default_layer {
             bindings = <
-                  &lt DSK TAB     &lt DSK Q    &kp W        &kp E        &kp R        &kp T         &kp Y        &kp U        &kp I        &kp O        &kp P        &kp BSPC    
+                  &lt DSK TAB     &lt DSK Q    &kp W        &kp E        &kp R        &kp T         &kp Y        &kp U        &kp I        &kp O        &kp P        &kp RGUI    
                   &mo NVW      &lt NVM A    &kp S        &kp D        &kp F        &kp G         &kp H        &kp J        &kp K        &kp L        &kp SEMI     &kp SQT     
                   &kp LSHFT    &mt LSHFT Z        &kp X        &kp C        &kp V        &kp B         &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH     &kp ESC     
                                                          &mt LALT GRAVE    &kp LGUI     &lt NBC SPACE    &lt FU TAB   &kp BSPC     &mt LCTRL ESC     
@@ -71,7 +71,7 @@
         winmask_layer {
             bindings = <
                   &trans       &trans       &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans       &trans       &trans      
-                  &mo NVM      &trans       &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans       &trans       &trans      
+                  &mo NVM      &lt NVW A    &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans       &trans       &trans      
                   &trans       &trans       &trans       &trans       &trans       &trans        &trans       &trans       &trans       &trans       &trans       &trans      
                                                          &trans       &trans       &trans        &trans       &trans       &trans      
             >;
